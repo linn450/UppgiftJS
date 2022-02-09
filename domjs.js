@@ -3,10 +3,10 @@
 var imageCounter = 1; 
 showDiv(imageCounter);
 function changeImage(m) {
-    shodDiv (imageCounter = imageCounter + m);
+    showDiv (imageCounter = imageCounter + m);
 }
 function showDiv(n) {
-    var imageCounter;
+    var i;
     var imageArray = document.getElementsByClassName("mySlides");
     if (n > imageArray.lenght) {
         imageCounter = 1;
@@ -14,7 +14,7 @@ function showDiv(n) {
     if (n < 1) {
         imageCounter = imageArray.lenght;
     }
-    for (i = 0; i < imageArray.lenght; i++) {
+    for (i = 0; i < imageArray.length; i++) {
         imageArray[i].style.display = "none";
     }
     imageArray[imageCounter - 1].style.display = "block";
