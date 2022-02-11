@@ -8,11 +8,11 @@ function changeImage(m) {
 function showDiv(n) {
     var i;
     var imageArray = document.getElementsByClassName("mySlides");
-    if (n > imageArray.lenght) {
+    if (n > imageArray.length) {
         imageCounter = 1;
     }
     if (n < 1) {
-        imageCounter = imageArray.lenght;
+        imageCounter = imageArray.length;
     }
     for (i = 0; i < imageArray.length; i++) {
         imageArray[i].style.display = "none";
