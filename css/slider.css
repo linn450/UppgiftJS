@@ -31,30 +31,6 @@
     left: 0%;
 }
 
-.display-right {
+.dislay-right {
     right: 0%;
-}
-
-.mainmenu {
-    background-color: cornflowerblue;
-    overflow: hidden;
-}
-
-.mainmenu a {
-    float: left;
-    color: black; 
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.mainmeu a:hover {
-    background-color: darkblue;
-    color: darkcyan;
-}
-
-.mainmenu a.active {
-    background-color: rgb(176, 255, 169);
-    color: white;
 }
