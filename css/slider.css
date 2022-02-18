@@ -5,6 +5,14 @@
     position: relative;
 }
 
+.h1 {
+    color: turquoise;
+    font-size: 26px;
+    text-align: center; 
+}
+
+
+
 .slideshow-container {
     max-width: 1000px;
     position: relative;
