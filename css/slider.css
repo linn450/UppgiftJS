@@ -36,17 +36,17 @@
 }
 
 .mainmenu {
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
     overflow: hidden;
 }
 
 .mainmenu a {
     float: left;
-    color:black; 
+    color: black; 
     text-align: center;
-    padding: 12px 14px;
+    padding: 14px 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .mainmeu a:hover {
@@ -55,6 +55,6 @@
 }
 
 .mainmenu a.active {
-    background-color:rgb(176, 255, 169);
+    background-color: rgb(176, 255, 169);
     color: white;
 }
